@@ -9,7 +9,7 @@ public class ArrayListTutorial {
         // 1. CREATION
         // ==========================================================
         // Best practice: Program to the interface (List<String>)
-        List<String> fruits = new MyArrayList<>();
+        List<String> fruits = new MyArrayList();
 
         System.out.println("--- 1. Adding Elements ---");
         // add(element) -> Appends to the end: O(1) amortized
